@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: normal;
+    font-weight: 400;
+    background-color: #D6C0B3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    border-top: 16px solid #AB886D;
+    border-bottom: 16px solid #AB886D;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: #493628;
+    color: #fff;
+    font-size: 32px;
+}
+header button{
+    margin-left: 20px;
+}
+
+form{
+    padding: 32px 0;
+    text-align: center;
+    background-color: #E4E0E1;
+    color: #493628;
+    display: none;
+}
+form h2{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+input, button{
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+ul{
+    text-align: center;
+    margin: 16px 400px;
+    list-style: none;
+}
+ul h3{
+    font-size: 32px;
+}
+.lista-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+    border-top: 2px solid;
+    margin: 0 100px;
+    margin-top: 16px;
+}
+.lista-item p{
+    margin: 0 16px;
+    cursor: pointer;
+}
+
+.tarefa-concluida{
+    text-decoration: line-through;
+}
+
+#btn, #botao-cancelar{
+    background-color: red;
+    color: #ffff;
+    font-weight: bold;
+}
